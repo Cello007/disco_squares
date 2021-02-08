@@ -1,0 +1,108 @@
+body { 
+    text-align: center; 
+    background-color: black;
+    
+}
+h1 {
+    color: white;
+}
+main { 
+    width: 300px; 
+    display: inline-grid; 
+    grid-template-columns: 1fr 1fr; 
+}
+
+main button { 
+    width: 150px; 
+    height: 150px; 
+}
+
+
+main button.fail { 
+    background-color: black; 
+}
+
+
+
+#pink { 
+    background-color: #F80BAD; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+
+
+}
+
+#pink.on { 
+    background-color: #F9D6EE; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#green { 
+    background-color: #3CD317; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#green.on { 
+    background-color: #C9F8BE;
+    border-radius: 8px; 
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#blue { 
+    background-color: #462DE1; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#blue.on { 
+    background-color: #9F97D2; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#yellow { 
+    background-color:#F1E437; 
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+#yellow.on { 
+    background-color: #F9F6C9;
+    border-radius: 8px; 
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
